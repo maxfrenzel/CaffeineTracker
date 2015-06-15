@@ -11,7 +11,7 @@ t_initial = datetime.datetime(2014, 5, 2, 0, 0)
 t_final = datetime.datetime(2016, 6, 30, 0, 0)
 
 # What to plot? All (1), Average (2), Maximum Day (3)
-plot_type = 3
+plot_type = 1
 # Save plot?
 save_plot = True
 
@@ -21,7 +21,7 @@ save_plot = True
 caffeine_list = [0.0,70.0,140.0,10.0,175.0,210.0,70.0,50.0]
 
 # Biological half life time of caffeine (in minutes)
-half_life = 5.0*60.0
+half_life = 5*60.0
 # Variance of Gaussian modelling caffeine entering bloodstream
 sigma = 60
 
